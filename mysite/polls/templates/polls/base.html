@@ -1,0 +1,25 @@
+<!-- base.html -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Polls app{% endblock %}</title>
+</head>
+<body>
+    <header>
+        <!-- Barra de Navegación, Logo, etc. -->
+        <h1>Polls app</h1>
+    </header>
+
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer>
+        <!-- Pie de Página, Información de Contacto, etc. -->
+        <p>&copy; 2024 Polls app</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,45 @@
+# .gitignore
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyo
+*.pyz
+*.pyw
+*.pyz
+*.pyw
+*.pytest_cache/
+
+# Django
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+*.env
+
+# Poetry
+__pypackages__/
+poetry.lock
+pyproject.toml
+.venv/
+
+# Angular
+/dist/
+/node_modules/
+/e2e/*.log
+/*.sublime-workspace
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# IDE-specific files
+*.idea/
+*.iml
+
+# Temporary files
+.DS_Store
+Thumbs.db
