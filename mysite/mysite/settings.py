@@ -97,7 +97,7 @@ DATABASES = {
         'USER': 'polls',
         'PASSWORD': 'polls',
         'HOST': 'localhost',  # Puedes cambiar esto si tu base de datos está en otro host
-        'PORT': '',  # El puerto por defecto para PostgreSQL es 5432
+        'PORT': '5432',  # El puerto por defecto para PostgreSQL es 5432
     }
 }
 

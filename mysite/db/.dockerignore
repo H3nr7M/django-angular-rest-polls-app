@@ -1,0 +1,9 @@
+# Excluir archivos de configuración local
+.env
+
+# Excluir archivos de registro
+logs/
+
+# Excluir archivos de compilación
+*.log
+*.tmp
